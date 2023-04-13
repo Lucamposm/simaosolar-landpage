@@ -1,0 +1,222 @@
+/* Estilos gerais */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilos do cabeçalho */
+  
+  header {
+    background: linear-gradient(to bottom right, #0072c6, #00b2ff);
+    color: #efedf4;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(123, 0, 255);
+  }
+  .navbar {
+    background: linear-gradient(to bottom right, #0072c6, #00b2ff);
+  }
+  
+  .navbar-toggler {
+    border: 5px solid rgb(239, 234, 234);
+    padding: 2px 10px;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .navbar-toggler .navbar-toggler-icon {
+    position: relative;
+    width: 20px;
+    height: 2px;
+    display: block;
+    background-color: rgb(224, 215, 215);
+    margin-top: 5px;
+  }
+  
+  .navbar-toggler .navbar-toggler-icon::before,
+  .navbar-toggler .navbar-toggler-icon::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    display: block;
+    background-color: rgb(219, 210, 210);
+  }
+  
+  .navbar-toggler .navbar-toggler-icon::before {
+    top: -4px;
+  }
+  
+  .navbar-toggler .navbar-toggler-icon::after {
+    bottom: -4px;
+  }
+  
+  .navbar-toggler {
+    border: 2px solid black; /* Añade un borde de 2 píxeles de ancho y negro al botón */
+    padding: 6px 12px; /* Agrega un relleno al botón */
+  }
+  
+ 
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+   
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: #f0f3ef;
+    text-decoration: none;
+  }
+    
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos do banner */
+  
+  #banner {
+    background-image: url("../img/post_thumbnail-4cba05d81e1e8b18b6836ba70bd4d251.jpeg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 150px 0;
+    color: #fff;
+  }
+  
+  #banner h2 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  #banner p {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Estilos dos benefícios */
+  
+  #beneficios {
+    background: linear-gradient(to bottom right, #0072c6, #00b2ff);
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #beneficios h2 {
+    margin-top: 0;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  #beneficios ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #beneficios li {
+    margin: 20px 0;
+    font-size: 24px;
+  }
+  
+  /* Estilos de como funciona */
+  
+  #como-funciona {
+    background: linear-gradient(to bottom right, #03273b, #042a3d);
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #como-funciona h2 {
+    margin-top: 0;
+    font-size: 32px;
+    font-weight: bold;
+    color: #7284d7;
+  }
+  
+  #como-funciona p {
+    font-size: 24px;
+    margin: 20px 0;
+    color: #f0f3ef;
+  }
+  
+  /* Estilos dos planos */
+  
+  #planos {
+    background: linear-gradient(to bottom right, #f2f2f2, #afabab);
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #planos h2 {
+    margin-top: 0;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  #planos p {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  /* Estilos do formulário de contato */
+  
+  #contato {
+    background: linear-gradient(to bottom right, #03273b, #042a3d);
+    padding: 50px;
+    text-align: center;
+    color: #070707;
+  }
+  
+  #contato h2 {
+    margin-top: 0;
+    font-size: 32px;
+    font-weight: bold;
+  }
+ 
+  #fim {
+    justify-content: center;
+    display: flex;
+    background-color: rgb(7, 7, 7);
+    color: #efedf4;
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+ 
